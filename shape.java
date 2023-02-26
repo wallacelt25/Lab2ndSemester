@@ -1,7 +1,7 @@
 abstract class shape {
     String color;
     abstract int getArea();
-    public Shape(String color){
+    public shape(String color){
         this.color = color;
     }
 
