@@ -1,4 +1,4 @@
-abstract class Shape {
+abstract class shape {
     String color;
     abstract int getArea();
     public Shape(String color){
@@ -7,7 +7,7 @@ abstract class Shape {
 
 }
 
-class Rectangle extends Shape {
+class Rectangle extends shape {
     int width;
     int height;
     public Rectangle(int width, int height, String color){
